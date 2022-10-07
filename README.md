@@ -1,2 +1,4 @@
 # MSIF
-code for the paper "Multi-Stream Information Fusion-based Trajectory Prediction in Interactive Scenarios: A Multi-channel Graph Convolutional Approach"
+
+## Description
+Code for the paper "Leveraging Multi-Stream Information Fusion for Trajectory Prediction in Low Illumination Scenarios: A Multi-channel Graph Convolutional Approach".
