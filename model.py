@@ -15,7 +15,7 @@ import torch.optim as optim
 
 class VGG(nn.Module):
     """
-    VGG builder
+        VGG Feature Extractor
     """
 
     def __init__(self, arch: object) -> object:
@@ -342,14 +342,14 @@ class social_stgcnn(nn.Module):
         # v = v.view(v.shape[0], v.shape[2], v.shape[1], v.shape[3])
         # flow = flow.view(flow.shape[0], flow.shape[2], flow.shape[1], flow.shape[3])
 
-        # 融合方式1
+        # 1st Fusion Method
         if self.fusion_mode == 0:
             # print(v.shape)
             # print(flow.shape)
             # print(feat_img.shape)
             fuse = (v + flow + feat_img) / 3
 
-        # 融合方式2
+        # 2nd Fusion Method
         elif self.fusion_mode == 1:
             if self.use_flow and self.use_image:
                 fuse = torch.cat([v, flow], dim=1)

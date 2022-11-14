@@ -189,8 +189,6 @@ class TrajectoryDataset(Dataset):
                     flow_index = np.where(ped_flow_all['frame_id'] == curr_frame_id)[0][0]
                     curr_ped_flow = ped_flow_all['flow'][flow_index:flow_index + self.seq_len]
                     curr_flow.append(curr_ped_flow)
-                    # print("############")
-                    # print(curr_ped_flow.shape)  # (20, 5, 5, 2)
 
                     # image
                     curr_ped_images = []
