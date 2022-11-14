@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ### Baseline and Dataset
-The Baseline of this method is [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN). 
+The Baseline of this method is [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN).    
 The proposed methods are validated on HEV-I Honda Egocentric View-Intersection ([HEV-I](https://usa.honda-ri.com/hevi)) Dataset.
 
 
