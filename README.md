@@ -2,7 +2,7 @@ Leveraging Multi-Stream Information Fusion for Trajectory Prediction in Low Illu
 ===
 
 ### Description
-Code for the paper *"Leveraging Multi-Stream Information Fusion for Trajectory Prediction in Low Illumination Scenarios: A Multi-channel Graph Convolutional Approach". Hailong Gong, Zirui Li, 
+Code for the [paper](https://arxiv.org/abs/2211.10226) *"Leveraging Multi-Stream Information Fusion for Trajectory Prediction in Low Illumination Scenarios: A Multi-channel Graph Convolutional Approach". Hailong Gong, Zirui Li, 
 Chao Lu, Guodong Du, Jianwei Gong*.
 The paper is submitted to *IEEE Transactions on Intelligent Transportation Systems*.
 
@@ -22,7 +22,7 @@ import numpy
 import tqdm
 import matplotlib
 ```
-Or you just meet the requirements.txt in [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN).    
+Or you can just meet the requirements.txt in [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN).    
 
 ### Baseline and Dataset
 The Baseline of this method is [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN).    
