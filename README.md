@@ -13,6 +13,9 @@ information from all the three channels is effectively fused in the prediction m
 that primarily focus on urban intersection scenarios. The results demonstrate that our method outperforms the baselines, in standard and low-illumination scenarios. Additionally, our approach is generic and applicable to scenarios with different types of perception data.
 
 
+### Framework
+![Framework](./pic/framework.png)
+
 ### Installation
 Meet the minimal requirements of this project.
 ```
@@ -26,26 +29,17 @@ Or you can just meet the requirements.txt in [Social-STGCNN](https://github.com/
 
 ### Baseline and Dataset
 The Baseline of this method is [Social-STGCNN](https://github.com/abduallahmohamed/Social-STGCNN).    
-The proposed methods are validated on HEV-I Honda Egocentric View-Intersection ([HEV-I](https://usa.honda-ri.com/hevi)) Dataset.
-
+The proposed methods are validated on HEV-I Honda Egocentric View-Intersection ([HEV-I](https://usa.honda-ri.com/hevi)) Dataset.  
+The optical flow can be generated using [FLownet2.0](https://github.com/NVIDIA/flownet2-pytorch) or [OpenCV](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html).
 
 ### Citation
 If you refer to this work in your research, you are welcome to cite this project.
 ```
-@ARTICLE{2022arXiv221110226G,
-       author = {{Gong}, Hailong and {Li}, Zirui and {Lu}, Chao and {Du}, Guodong and {Gong}, Jianwei},
-        title = "{Leveraging Multi-stream Information Fusion for Trajectory Prediction in Low-illumination Scenarios: A Multi-channel Graph Convolutional Approach}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence},
-         year = 2022,
-        month = nov,
-          eid = {arXiv:2211.10226},
-        pages = {arXiv:2211.10226},
-archivePrefix = {arXiv},
-       eprint = {2211.10226},
- primaryClass = {cs.CV},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv221110226G},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{gong2022leveraging,
+  title={Leveraging Multi-stream Information Fusion for Trajectory Prediction in Low-illumination Scenarios: A Multi-channel Graph Convolutional Approach},
+  author={Gong, Hailong and Li, Zirui and Lu, Chao and Du, Guodong and Gong, Jianwei},
+  journal={arXiv preprint arXiv:2211.10226},
+  year={2022}
 }
 ```
 
